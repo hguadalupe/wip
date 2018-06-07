@@ -2,9 +2,9 @@
 
 $hoy = date("m-d-y");
 
-$list = $hoy .","."\r\n";
+$list = $hoy .","."12".","."\r\n";
 
-$handle = fopen("file.csv", "a");
+$handle = fopen("autocsv.csv", "a");
 
 fwrite($handle,$list);
 
